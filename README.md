@@ -10,3 +10,7 @@ This repository contains the full source code for the **Crop Price Dashboard** p
 - **API Gateway:** Java Spring Boot, routes requests to backend services.
 - **Backend Microservices:**
   - **Trend Service (Python):** Provides predicted price trends.
+  - **Writer Service (Node.js):** Handles logging or writing new data.
+  - **Data Service (Go):** Provides historical price data.
+  - **MySQL:** Stores demo/historical crop prices.
+
