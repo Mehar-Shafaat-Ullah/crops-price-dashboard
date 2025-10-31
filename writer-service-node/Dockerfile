@@ -13,7 +13,7 @@ FROM node:18-alpine
 WORKDIR /app
 
 COPY --from=builder /app ./
-#expose a port 
+# expose port 
 EXPOSE 3001
 CMD ["npm", "start"]
 
