@@ -1,4 +1,4 @@
-# Stage 1: 
+# Stage 1: build
 
 FROM maven:3.9.6-eclipse-temurin-17 AS builder
 WORKDIR /app
