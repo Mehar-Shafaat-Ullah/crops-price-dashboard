@@ -18,7 +18,7 @@ RUN mvn package -DskipTests
 FROM openjdk:17-jdk-slim
 WORKDIR /app
 
-# Copy only the built jar from the builder stage
+# Copy only  built jar from the builder stage
 
 COPY --from=builder /app/target/api-gateway-0.0.1-SNAPSHOT.jar ./api-gateway.jar
 
